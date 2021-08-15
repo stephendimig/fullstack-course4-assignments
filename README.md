@@ -1,2 +1,2 @@
-# module2-solution
-Repository for module 2 code assignment
+# fullstack-course4-assignments 
+Repository for assignments in the coursera full stack development course.
