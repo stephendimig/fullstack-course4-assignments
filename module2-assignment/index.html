@@ -1,10 +1,31 @@
+<!--
+File: index.html
+Author: Stephen Dimig (azedt376@gmail.com)
+Description: Simple site to demonstrate a responsive page. It consists of a set of 3 menus for a restaurant. The browser will display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Hello Coursera</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Our Menu</title>
 </head>
 <body>
-Hello Coursera
+<h1>Our Menu</h1>
+
+<div class="row">
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<p><span id="span_1">Chicken</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<p><span id="span_2">Beef</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p>
+  </div>
+  <div class="col-lg-4 col-md-12 col-sm-12">
+  	<p><span id="span_3">Sushi</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p>
+  </div>
+</div>
+
 </body>
 </html>
