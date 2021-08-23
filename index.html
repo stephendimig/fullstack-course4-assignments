@@ -1,31 +1,117 @@
-<!--
-File: index.html
-Author: Stephen Dimig (azedt376@gmail.com)
-Description: Simple site to demonstrate a responsive page. It consists of a set of 3 menus for a restaurant. The browser will display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px.
--->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<title>Our Menu</title>
-</head>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title class="text-center">Our Menu</title>
+  </head>
 <body>
-<h1>Our Menu</h1>
 
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-12">
-  	<p><span id="span_1">Chicken</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  
+  <header> 
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div id="navbar-header-1" class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html">Food, LLC</a>
+          </div>
+          <button id="button-1" type="button" class="navbar-toggle visible-xs" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li id="list-item-1" class="visible-xs text-center"><a href="#h3-1">Chicken</a></li>
+            <li id="list-item-1" class="visible-xs text-center"><a href="#h3-2">Beef</a></li> 
+            <li id="list-item-1" class="visible-xs text-center"><a href="#h3-3">Sushi</a></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <h1 id="h1-1">Our Menu</h1>
+  <div id="container-fluid_1" class="container-fluid">
+    <div class="row">
+      <div class="container-fluid col-md-4 col-sm-6 col-xs-12">
+        <section>
+          <h3 id="h3-1" class="text-center">Chicken</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!    
+          </p>
+          <br>
+          <a href="#header-nav">(End of Chicken Section)  Back to Top</a>
+        </section>
+      </div>
+
+      <div class="container-fluid col-md-4 col-sm-6 col-xs-12">
+        <section>
+          <h3 id="h3-2" class="text-center">Beef</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+          
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+          </p>
+          <br>
+          <a href="#header-nav">(End of Beef Section) Back to Top</a>
+        </section>
+      </div>
+      <div class="container-fluid col-md-4 col-sm-12 col-xs-12">
+        <section>
+          <h3 id="h3-3" class="text-center">Sushi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+          </p>
+          <br>
+          <a href="#header-nav">(End of Sushi Section)  Back to Top</a>
+        </section>
+      </div>
+    </div>
   </div>
-  <div class="col-lg-4 col-md-6 col-sm-12">
-  	<p><span id="span_2">Beef</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p>
-  </div>
-  <div class="col-lg-4 col-md-12 col-sm-12">
-  	<p><span id="span_3">Sushi</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!</p>
-  </div>
-</div>
 
 </body>
+
 </html>
